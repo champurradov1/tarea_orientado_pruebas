@@ -1,0 +1,10 @@
+node puede hacer servicios completos,apis,etc.
+
+npm funciona a nivel global en el sistema si configuras path
+
+npm install -g mocha
+
+
+rama red fallo
+green refactor
+refactor codigo final
