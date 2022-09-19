@@ -1,15 +1,15 @@
 
 const assert = require('chai').assert;
-const { helloText } = require('../logica');
+const logica = require('../logica');
 const main = require('../logica');
 
 //resultado
-const elTextoAqui = helloText();
+const elTextoAqui = logica.helloText();
 
 describe("Verificar si tenemos el texto correcto", function(){
 
     it("Validando..", function(){
-        assert.equal(unTextoAqui, 'orientado a pruebas');
+        assert.equal(elTextoAqui, 'orientado a pruebas');
     });
 
 });
